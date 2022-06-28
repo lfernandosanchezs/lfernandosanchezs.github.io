@@ -1,0 +1,89 @@
+.flex_container-header {
+    background-color: hsla(263,91%,9%,1.00);
+    color: hsla(0,100%,99%,1.00);
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+}
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.flex_container-header h1 {
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+body footer h5 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: hsla(226,93%,11%,1.00);
+    justify-content: center;
+    align-items: center;
+}
+.footer5 {
+    width: 100%;
+    height: 100px;
+    color: hsla(0,4%,95%,1.00);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.flex_container-nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: hsla(201,85%,24%,1.00);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex_container-nav div a {
+    color: hsla(0,0%,100%,1.00);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.flex_container-nav div a:hover {
+    color: hsla(246,62%,12%,1.00);
+}
+
+
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: hsla(0,0%,100%,1.00);
+    width: 10%;
+}
+.flex_container-main {
+    height: auto;
+    display: flex;
+    background-color: hsla(0,3%,35%,1.00);
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    width: auto;
+}
+.flex_container-main section {
+    background-color: hsla(199,58%,39%,1.00);
+    width: 13%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    margin-left: 20px;
+}
